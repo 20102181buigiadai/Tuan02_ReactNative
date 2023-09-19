@@ -1,0 +1,43 @@
+/* Design table beatiful */
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.6em;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+/* CSS cho tiêu đề bảng */
+thead {
+    background-color: #5586d4;
+    color: #fff;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+
+}
+
+/* Hoạt ảnh khi di chuột vào dòng */
+tr:hover {
+    background-color: #23af80;
+    /* in đậm */
+    font-weight: bold;
+}
